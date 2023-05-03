@@ -1,2 +1,3 @@
 # getStartedOdoo
 Avoir une polyvalence technique et professionnelle Travailler avec Odoo fournit un aperçu clair de toutes les phases de développement des projets.
+### Un programmeur odoo / python puise dans des domaines tels que l’administration de base de données, les requêtes SQL, le développement frontal, le développement back-end, la conception Web et l’analyse commerciale. Odoo englobe tous les domaines dont un chef de projet aurait besoin pour mener à bien un projet. De cette façon, odoo offre de nombreuses possibilités d’avancement professionnel. En fonction de la capacité du développeur à maîtriser la structure, il peut être promu développeur principal pour exécuter des projets.
