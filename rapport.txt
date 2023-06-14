@@ -1,0 +1,19 @@
+--------< Docker Compose with Python and PosgreSQL
+#docker #python #postgres
+
+https://dev.to/stefanopassador/docker-compose-with-python-and-posgresql-33kk
+
+-----<  Odoo docs
+What are you looking for?
+
+https://www.odoo.com/documentation/16.0/fr/developer/howtos.html
+
+
+-------< La connaissance est un pouvoir !
+https://www.odoo.com/fr_FR/slides
+
+
+---------<  install Odoo with Python (venv) Postgres and Visual Studio
+link : https://www.youtube.com/watch?v=1IcVUuhJrIo
+
+Author : tcotidiane33
