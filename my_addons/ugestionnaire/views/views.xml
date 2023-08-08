@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_gestionnaire_form">
+            <field name="name">module_gestionnaire.gestionnaire_form_view</field>
+            <field name="model">module_gestionnaire.gestionnaire</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="matricule"/>
+                            <field name="pole"/>
+                            <field name="entreprise"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

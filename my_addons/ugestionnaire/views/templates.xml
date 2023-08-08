@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <template id="gestionnaire_template" inherit_id="website.layout" name="Gestionnaire">
+            <xpath expr="//div[@id='wrapwrap']" position="inside">
+                <div class="container">
+                    <h1>Gestionnaires</h1>
+                    <ul>
+                        <t t-foreach="gestionnaires" t-as="gestionnaire">
+                            <li><t t-esc="gestionnaire.name"/></li>
+                        </t>
+                    </ul>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
