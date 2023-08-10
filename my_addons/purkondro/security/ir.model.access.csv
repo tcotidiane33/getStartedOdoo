@@ -1,0 +1,39 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_purchase_order,purkondro.order,model_purchase_order,group_purchase_user,1,1,1,1
+access_purchase_order_manager,purkondro.order,model_purchase_order,group_purchase_manager,1,1,1,1
+access_purchase_order_invoicing_payments_readonly,purkondro.order,model_purchase_order,account.group_account_readonly,1,0,0,0
+access_purchase_order_invoicing_payments,purkondro.order,model_purchase_order,account.group_account_invoice,1,1,0,0
+access_purchase_order_portal,purkondro.order.portal,purkondro.model_purchase_order,base.group_portal,1,0,0,0
+access_purchase_order_line,purkondro.order.line user,model_purchase_order_line,group_purchase_user,1,1,1,1
+access_purchase_order_line_manager,purkondro.order.line,model_purchase_order_line,group_purchase_manager,1,1,1,1
+access_purchase_order_line_invoicing_payments_readonly,purkondro.order.line,model_purchase_order_line,account.group_account_readonly,1,0,0,0
+access_purchase_order_line_invoicing_payments,purkondro.order.line,model_purchase_order_line,account.group_account_invoice,1,1,0,0
+access_purchase_order_line_portal,purkondro.order.line.portal,purkondro.model_purchase_order_line,base.group_portal,1,0,0,0
+access_account_tax_purchase_user,account.tax,account.model_account_tax,group_purchase_user,1,0,0,0
+access_account_tag_purchase_user,account.account.tag,account.model_account_account_tag,group_purchase_user,1,0,0,0
+access_account_tax_purchase_user_manager,account.tax,account.model_account_tax,group_purchase_manager,1,0,0,0
+access_product_product_purchase_user,product.product.purkondro.user,product.model_product_product,group_purchase_user,1,0,0,0
+access_product_product_purchase_manager,product.product purchase_manager,product.model_product_product,purkondro.group_purchase_manager,1,1,1,1
+access_product_template_purchase_user,product.template purchase_user,product.model_product_template,group_purchase_user,1,0,0,0
+access_account_fiscal_position_purchase_user,account.fiscal.position purkondro,account.model_account_fiscal_position,group_purchase_user,1,0,0,0
+access_res_partner_purchase_user,res.partner purkondro,base.model_res_partner,group_purchase_user,1,0,0,0
+access_account_journal,account.journal,account.model_account_journal,group_purchase_user,1,0,0,0
+access_account_journal_manager,account.journal,account.model_account_journal,group_purchase_manager,1,0,0,0
+access_account_move,account.move,account.model_account_move,group_purchase_user,1,1,1,1
+access_account_move_line_manager,account.move.line,account.model_account_move_line,group_purchase_manager,1,1,1,1
+access_account_move_line,account.move.line,account.model_account_move_line,group_purchase_user,1,1,1,0
+access_account_analytic_line,account.analytic.line,account.model_account_analytic_line,group_purchase_user,1,0,0,0
+account_partial_reconcile,account.partial.reconcile.purkondro.user,account.model_account_partial_reconcile,group_purchase_user,1,0,0,0
+access_res_partner_purchase_manager,res.partner.purkondro.manager,base.model_res_partner,group_purchase_manager,1,1,1,0
+access_uom_category_purchase_manager,uom.category purchase_manager,uom.model_uom_category,purkondro.group_purchase_manager,1,1,1,1
+access_uom_uom_purchase_manager,uom.uom purchase_manager,uom.model_uom_uom,purkondro.group_purchase_manager,1,1,1,1
+access_product_category_purchase_manager,product.category purchase_manager,product.model_product_category,purkondro.group_purchase_manager,1,1,1,1
+access_product_template_purchase_manager,product.template purchase_manager,product.model_product_template,purkondro.group_purchase_manager,1,1,1,1
+access_product_packaging_purchase_manager,product.packaging purchase_manager,product.model_product_packaging,purkondro.group_purchase_manager,1,1,1,1
+access_product_supplierinfo_purchase_manager,product.supplierinfo purchase_manager,product.model_product_supplierinfo,purkondro.group_purchase_manager,1,1,1,1
+access_product_pricelist_item_purchase_manager,product.pricelist.item purchase_manager,product.model_product_pricelist_item,purkondro.group_purchase_manager,1,1,1,1
+access_product_tag_purchase_manager,product.tag.purkondro.manager,product.model_product_tag,purkondro.group_purchase_manager,1,1,1,1
+access_account_account_purchase_manager,account.account purkondro manager,account.model_account_account,purkondro.group_purchase_manager,1,0,0,0
+access_purchase_bill_union,access_purchase_bill_union,model_purchase_bill_union,purkondro.group_purchase_user,1,0,0,0
+access_report_purchase_order,purkondro.stock.report,model_purchase_report,purkondro.group_purchase_manager,1,0,0,0
+access_report_purchase_order_user,purkondro.stock.report user,model_purchase_report,purkondro.group_purchase_user,1,0,0,0

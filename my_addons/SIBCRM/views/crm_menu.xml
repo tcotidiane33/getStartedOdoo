@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <menuitem id="menu_crm" name="CRM" sequence="10"/>
+        <menuitem id="menu_crm_leads" name="Opportunités" parent="menu_crm" action="crm_lead_action"/>
+        <menuitem id="menu_crm_stages" name="Étapes CRM" parent="menu_crm" action="crm_stage_action"/>
+        <act_window id="crm_lead_action" name="Opportunités" res_model="crm.lead" view_mode="tree,form"/>
+        <act_window id="crm_stage_action" name="Étapes CRM" res_model="crm.stage" view_mode="tree,form"/>
+    </data>
+</odoo>

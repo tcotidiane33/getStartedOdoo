@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <!-- Vue liste des tâches -->
+        <record id="view_task_list" model="ir.ui.view">
+            <field name="name">task.manager.task.list</field>
+            <field name="model">task.manager.task</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="due_date"/>
+                    <field name="priority"/>
+                </tree>
+            </field>
+        </record>
+        <!-- ... autres enregistrements ... -->
+    </data>
+</odoo>

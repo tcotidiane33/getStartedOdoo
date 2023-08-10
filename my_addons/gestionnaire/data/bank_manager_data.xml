@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+
+        <!-- Exemple d'ajout d'un enregistrement de gestionnaire de banque -->
+        <record id="bank_manager_demo" model="bank.manager">
+            <field name="name">John Doe</field>
+            <field name="responsibilities">Managing bank operations</field>
+            <!-- Vous pouvez ajouter d'autres champs ici -->
+        </record>
+
+        <!-- Exemple d'ajout d'un autre enregistrement de gestionnaire de banque -->
+        <record id="bank_manager_demo_2" model="bank.manager">
+            <field name="name">Jane Smith</field>
+            <field name="responsibilities">Overseeing client relations</field>
+            <!-- Vous pouvez ajouter d'autres champs ici -->
+        </record>
+
+    </data>
+</odoo>
