@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name' : 'Hospital Management',
-    'version' : '1.2',
+    'version' : '1.0',
     'summary': 'Hospital Management Software',
     'sequence': 10,
     'description': """
@@ -14,6 +14,7 @@ Hospital Management Software""",
     'depends' : [],
     'data': [],
     'demo': [],
+    'qweb': [],
     'installable': True,
     'application': True,
     'post_init_hook': '_account_post_init',
